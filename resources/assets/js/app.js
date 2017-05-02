@@ -18,6 +18,7 @@ window.Vue = require('vue');
 
 Vue.component('about-section', require('./components/about.vue'));
 Vue.component('summary-section', require('./components/summary.vue'));
+Vue.component('contacts-section', require('./components/contacts.vue'));
 Vue.component('skills-section', require('./components/skills.vue'));
 Vue.component('expertise-section', require('./components/expertise.vue'));
 Vue.component('footer-section', require('./components/footer.vue'));

@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 46);
+/******/ 	return __webpack_require__(__webpack_require__.s = 48);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -835,7 +835,7 @@ module.exports = g;
 __webpack_require__(30);
 __webpack_require__(31);
 
-window.Vue = __webpack_require__(44);
+window.Vue = __webpack_require__(46);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -844,10 +844,11 @@ window.Vue = __webpack_require__(44);
  */
 
 Vue.component('about-section', __webpack_require__(36));
-Vue.component('summary-section', __webpack_require__(39));
-Vue.component('skills-section', __webpack_require__(38));
-Vue.component('expertise-section', __webpack_require__(64));
-Vue.component('footer-section', __webpack_require__(37));
+Vue.component('summary-section', __webpack_require__(40));
+Vue.component('contacts-section', __webpack_require__(65));
+Vue.component('skills-section', __webpack_require__(39));
+Vue.component('expertise-section', __webpack_require__(37));
+Vue.component('footer-section', __webpack_require__(38));
 
 var app = new Vue({
   el: '#homepage'
@@ -32662,7 +32663,7 @@ return jQuery;
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8), __webpack_require__(45)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8), __webpack_require__(47)(module)))
 
 /***/ }),
 /* 35 */
@@ -32862,7 +32863,7 @@ var Component = __webpack_require__(1)(
   /* script */
   null,
   /* template */
-  __webpack_require__(40),
+  __webpack_require__(41),
   /* scopeId */
   null,
   /* cssModules */
@@ -32902,6 +32903,40 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
+Component.options.__file = "/var/www/vue/resources/assets/js/components/expertise.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] expertise.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-6e006473", Component.options)
+  } else {
+    hotAPI.reload("data-v-6e006473", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(1)(
+  /* script */
+  null,
+  /* template */
+  __webpack_require__(44),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
 Component.options.__file = "/var/www/vue/resources/assets/js/components/footer.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] footer.vue: functional components are not supported with templates, they should use render functions.")}
@@ -32923,14 +32958,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(29),
   /* template */
-  __webpack_require__(41),
+  __webpack_require__(43),
   /* scopeId */
   null,
   /* cssModules */
@@ -32957,14 +32992,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(1)(
   /* script */
   null,
   /* template */
-  __webpack_require__(43),
+  __webpack_require__(45),
   /* scopeId */
   null,
   /* cssModules */
@@ -32991,7 +33026,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -33018,7 +33053,32 @@ if (false) {
 }
 
 /***/ }),
-/* 41 */
+/* 42 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
+    staticClass: "mt-20px"
+  }, [_c('div', {
+    staticClass: "container"
+  }, [_c('div', {
+    staticClass: "row"
+  }, [_c('div', {
+    staticClass: "col-md-8 col-md-offset-2 text-center expertise small"
+  }, [_c('p', [_vm._v("\n                    Remote work | Custom PHP solutions | Performance upgrade | Urgent website fixes | Website maintenance | Third party integrations | Payment integration | Responsive websites | PHP Frameworks | Onsite SEO | WordPress | Linux\n                ")])])])])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-6e006473", module.exports)
+  }
+}
+
+/***/ }),
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -33085,7 +33145,7 @@ if (false) {
 }
 
 /***/ }),
-/* 42 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -33106,7 +33166,7 @@ if (false) {
 }
 
 /***/ }),
-/* 43 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -33118,7 +33178,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "row"
   }, [_c('div', {
     staticClass: "col-md-8 col-md-offset-2"
-  }, [_c('h3', [_vm._v("Summary:")]), _vm._v(" "), _c('p', [_vm._v("Working as a Freelancer for the last 6 years. Since 2012 helped lots of projects and solved hundreds of web application problems. Good at creating and simplifying complex structures, performing urgent fixes, setting various automation processes and reading someone's code. "), _c('br'), _vm._v("\n                    Top priorities: quality and liability. ")]), _vm._v(" "), _c('p', [_vm._v("Looking forward for new challenges and opportunities.")])])])])])
+  }, [_c('h3', [_vm._v("Summary:")]), _vm._v(" "), _c('p', [_vm._v("Working as a Freelancer for the last 6 years. Since 2012 helped lots of projects and solved hundreds of web application problems. Good at creating and simplifying complex algorithms, performing urgent fixes, setting various automation processes and reading someone's else code. "), _c('br'), _vm._v("\n                Top priorities: "), _c('span', {
+    staticClass: "my-bold"
+  }, [_vm._v("quality and liability.")])]), _vm._v(" "), _c('p', [_vm._v("Looking forward for new challenges and opportunities.")])])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
@@ -33129,7 +33191,7 @@ if (false) {
 }
 
 /***/ }),
-/* 44 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42760,7 +42822,7 @@ module.exports = Vue$3;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 45 */
+/* 47 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -42788,7 +42850,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 46 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(9);
@@ -42796,8 +42858,6 @@ module.exports = __webpack_require__(10);
 
 
 /***/ }),
-/* 47 */,
-/* 48 */,
 /* 49 */,
 /* 50 */,
 /* 51 */,
@@ -42813,22 +42873,23 @@ module.exports = __webpack_require__(10);
 /* 61 */,
 /* 62 */,
 /* 63 */,
-/* 64 */
+/* 64 */,
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(1)(
   /* script */
   null,
   /* template */
-  __webpack_require__(65),
+  __webpack_require__(66),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/var/www/vue/resources/assets/js/components/expertise.vue"
+Component.options.__file = "/var/www/vue/resources/assets/js/components/contacts.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] expertise.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] contacts.vue: functional components are not supported with templates, they should use render functions.")}
 
 /* hot reload */
 if (false) {(function () {
@@ -42837,9 +42898,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6e006473", Component.options)
+    hotAPI.createRecord("data-v-3225403e", Component.options)
   } else {
-    hotAPI.reload("data-v-6e006473", Component.options)
+    hotAPI.reload("data-v-3225403e", Component.options)
   }
 })()}
 
@@ -42847,27 +42908,27 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('section', {
-    staticClass: "mt-20px"
-  }, [_c('div', {
+  return _c('section', [_c('div', {
     staticClass: "container"
   }, [_c('div', {
     staticClass: "row"
   }, [_c('div', {
-    staticClass: "col-md-8 col-md-offset-2 text-center expertise small"
-  }, [_c('p', [_vm._v("\n                    Remote work | Custom PHP solutions | Performance upgrade | Urgent website fixes | Website maintenance | Third party integrations | Payment integration | Responsive websites | PHP Frameworks | Onsite SEO | WordPress | Linux\n                ")])])])])])
+    staticClass: "col-md-8 col-md-offset-2"
+  }, [_c('h3', [_vm._v("Contacts:")]), _vm._v(" "), _c('p', [_vm._v("For more details, some work examples or interesting offers contact me by email: "), _c('span', {
+    staticClass: "my-bold"
+  }, [_vm._v("stanislav.markevic@gmail.com")])])])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-6e006473", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-3225403e", module.exports)
   }
 }
 

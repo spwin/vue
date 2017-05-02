@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Akrobat;
+    src: url(../fonts/Akrobat-Regular.woff);
+}
+@font-face {
+	font-family: "SkillsIcons";
+	src:url("../fonts/skillsicons.eot");
+	src:url("../fonts/skillsicons.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/skillsicons.woff2") format("woff2"),
+		url("../fonts/skillsicons.woff") format("woff"),
+		url("../fonts/skillsicons.ttf") format("truetype"),
+		url("../fonts/skillsicons.svg#onlinewebfonts") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+.skill-icon:before{
+    font-size: 50px;
+    font-family: "SkillsIcons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.i_laravel:before {
+    content: "\e010";
+}
+.i_prog_symfony:before {
+    content: "\e011";
+}
+.i_mysql:before {
+    content: "\e012";
+}
+.i_jquery:before {
+    content: "\e013";
+}
+.i_javascript:before {
+    content: "\e014";
+}
+.i_bootstrap:before {
+    content: "\e015";
+}
+.i_linux:before {
+    content: "\e016";
+}
+.i_java:before {
+    content: "\e017";
+}
+.i_android:before {
+    content: "\e018";
+}
+.i_wordpress:before {
+    content: "\e019";
+}
+.i_joomla:before {
+    content: "\e01a";
+}
+.i_html:before {
+    content: "\e01b";
+}
+.i_css:before {
+    content: "\e01c";
+}
+.i_git:before {
+    content: "\e01d";
+}
+.i_apache:before {
+    content: "\e01e";
+}
+.i_paypal:before {
+    content: "\e01f";
+}
+.i_facebook:before {
+    content: "\e020";
+}
+.i_twitter:before {
+    content: "\e021";
+}
+.i_google:before {
+    content: "\e022";
+}
+.i_php:before {
+    content: "\e023";
+}

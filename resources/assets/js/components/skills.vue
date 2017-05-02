@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-shadow mt-20px">
+    <section class="skills-section bg-shadow mt-20px">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">

@@ -1,3 +1,10 @@
+::selection {
+  background: #efd3ed; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #efd3ed; /* Gecko Browsers */
+}
+
 .bg-shadow{
     background: url("../images/bg-pattern.png"), #524b59; /* fallback for old browsers */
     background: url("../images/bg-pattern.png"), -webkit-linear-gradient(to left, #91548c , #524b59); /* Chrome 10-25, Safari 5.1-6 */

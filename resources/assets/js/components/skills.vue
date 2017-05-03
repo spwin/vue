@@ -37,8 +37,10 @@
             autoWidth: true,
             slideMargin: 10,
             loop: true,
-            currentPagerPosition: 'middle',
-            controls: false
+            auto:true,
+            pauseOnHover: true,
+            controls: false,
+            speed:600
         });
     });
 </script>

@@ -10,14 +10,19 @@
             <file>file:/var/www/vue/resources/views/pages/homepage.blade.php</file>
             <file>file:/var/www/vue/resources/assets/js/app.js</file>
             <file>file:/var/www/vue/.env</file>
+            <file>file:/var/www/vue/resources/assets/js/components/modules/niceMessage.js</file>
             <file>file:/var/www/vue/public/css/app.css</file>
             <file>file:/var/www/vue/resources/assets/sass/_variables.scss</file>
+            <file>file:/var/www/vue/app/Exceptions/Handler.php</file>
             <file>file:/var/www/vue/resources/assets/sass/_fonts.scss</file>
+            <file>file:/var/www/vue/public/.htaccess</file>
             <file>file:/var/www/vue/resources/assets/js/components/footer.vue</file>
             <file>file:/var/www/vue/resources/assets/sass/app.scss</file>
+            <file>file:/var/www/vue/resources/assets/js/components/modules/velocity.js</file>
             <file>file:/var/www/vue/resources/assets/js/components/about.vue</file>
             <file>file:/var/www/vue/resources/assets/js/components/expertise.vue</file>
             <file>file:/var/www/vue/resources/views/layout.blade.php</file>
+            <file>file:/var/www/vue/public/js/scripts.js</file>
             <file>file:/var/www/vue/resources/assets/js/components/summary.vue</file>
             <file>file:/var/www/vue/resources/assets/js/components/skills.vue</file>
         </group>

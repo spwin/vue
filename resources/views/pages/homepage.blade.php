@@ -6,7 +6,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h1 class="section-heading">Stanislav Markevic</h1>
+                            <h1 class="section-heading">Header</h1>
                             <h2 class="smaller">Emergency WEB Developer</h2>
                         </div>
                     </div>
